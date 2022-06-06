@@ -25,11 +25,11 @@ def translate(word_or_phrase):
   return " ".join(translated)
 
 
-#  note: rules of pig latin
+# note: rules of pig latin
 # Rule 1: If a word begins with a vowel sound, add an "ay" sound to the end of the word.
 
 # Rule 2: If a word begins with a consonant sound, move it to the end of the word, and then add an "ay" sound to the end of the word.
 
 # check string[o] is it is (aieou)
-#  if true append ay on end
+# if true append ay on end
 # if false loop until you find a vowel, split, push to end and add, ay

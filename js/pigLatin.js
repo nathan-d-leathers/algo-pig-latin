@@ -33,6 +33,6 @@ exports.translate = function(word) {
     }
   
                     
-
-return translated;
+let finalAnswer = translated.join(" ");
+return finalAnswer;
 };
